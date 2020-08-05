@@ -1,0 +1,47 @@
+*, *:before, *:after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.toolbar {
+  margin: 1rem 1rem 0.25rem 1rem
+}
+
+.tool-list {
+  display: flex;
+  flex-flow: row nowrap;
+  list-style: none;
+  padding: 0;
+  ;
+}
+
+.tool {}
+
+.tool--btn:hover {
+  background-color: grey;
+  transition: 400ms;
+  color: rgb(211, 211, 211)
+}
+
+.tool--btn {
+  display: block;
+  border: none;
+  padding: .5rem;
+  font-size: 20px;
+}
+
+#output {
+  height: 400px;
+  width: 900px;
+  padding: 1rem;
+  border-radius: 5px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2), 0 6px 6px rgba(0, 0, 0, 0.25);
+  margin: 0 1rem 1rem 1rem;
+  overflow-y: scroll;
+  outline-color: rgb(0, 117, 117);
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://use.fontawesome.com/5c65e16b4d.js"></script>
+  <!-- <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> -->
+  <link rel="stylesheet" href="./css/script.css">
+  <link rel="stylesheet" href="https://unpkg.com/simplebar@latest/dist/simplebar.css" />
+  <title>Javascript Based | Rich-Text Editor</title>
+</head>
+
+<body>
+  <div class="toolbar">
+    <ul class="tool-list">
+      <li class="tool">
+        <button class="tool--btn" href="#" type="button" data-command="justifyLeft">
+          <i class="fa fa-align-left"></i>
+        </button>
+      </li>
+      <li class="tool">
+        <button class="tool--btn" href="#" type="button" data-command="justifyCenter">
+          <i class="fa fa-align-center"></i>
+        </button>
+      </li>
+      <li class="tool">
+        <button class="tool--btn" href="#" type="button" data-command="justifyRight">
+          <i class="fa fa-align-right"></i>
+        </button>
+      </li>
+      <li class="tool">
+        <button class="tool--btn" href="#" type="button" data-command="bold">
+          <i class="fa fa-bold"></i>
+        </button>
+      </li>
+      <li class="tool">
+        <button class="tool--btn" href="#" type="button" data-command="italic">
+          <i class="fa fa-italic"></i>
+        </button>
+      </li>
+      <li class="tool">
+        <button class="tool--btn" href="#" type="button" data-command="underline">
+          <i class="fa fa-underline"></i>
+        </button>
+      </li>
+      <li class="tool">
+        <button class="tool--btn" href="#" type="button" data-command="insertOrderedList">
+          <i class="fa fa-list-ol"></i>
+        </button>
+      </li>
+      <li class="tool">
+        <button class="tool--btn" href="#" type="button" data-command="insertUnorderedList">
+          <i class="fa fa-list-ul"></i>
+        </button>
+      </li>
+      <li class="tool">
+        <button class="tool--btn" href="#" type="button" data-command="createlink">
+          <i class="fa fa-link"></i>
+        </button>
+      </li>
+      <li class="tool">
+        <button class="tool--btn" href="#" type="button" data-command="undo">
+          <i class="fa fa-undo"></i>
+        </button>
+      </li>
+      <li class="tool">
+        <button class="tool--btn" href="#" type="button" data-command="redo">
+          <i class="fa fa-repeat"></i>
+        </button>
+      </li>
+    </ul>
+  </div>
+  <div contenteditable="true" id="output" data-simplebar>Your Name</div>
+  <script src="./js/main.js"></script>
+</body>
+
+</html>
